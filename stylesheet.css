@@ -9,4 +9,8 @@ header {
     color: white;
 }
 
+header a {
+    display: block;
+}
+
   
