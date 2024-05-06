@@ -11,6 +11,8 @@ header {
 
 header a {
     display: block;
+    color: white;
+    text-decoration: none;
 }
 
   
