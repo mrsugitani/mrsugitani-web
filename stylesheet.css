@@ -28,7 +28,7 @@ a {
 }
 
 .top-wrapper {
-    padding: 180px 0 180px 0;
+    padding: 180px 0 120px 0;
     background-image: url("images/main_1.jpg");
     background-size: cover;
     
@@ -55,4 +55,30 @@ p {
     color: white;
 }
 
-  
+.container .header-left .fa-solid .fa-code{
+    float: left;
+    
+}
+
+
+.header-right {
+    float: right;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+header a {
+    display: block;
+    background-color: gray;
+    padding: 8px;
+}
+
+
+
+header a:hover {
+    opacity: 0.8;
+}
+
+
