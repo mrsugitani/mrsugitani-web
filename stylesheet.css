@@ -15,8 +15,9 @@ header a {
     text-decoration: none;
 }
 
-.container {
-    
+.top-wrapper {
+    background-image: url("images/main.jpg");
+
 }
 
   
