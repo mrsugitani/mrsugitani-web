@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+  }
+
+
+
 .title {
     color: #02ccba;
   
@@ -9,15 +15,27 @@ header {
     color: white;
 }
 
-header a {
+a {
     display: block;
     color: white;
     text-decoration: none;
 }
 
-.top-wrapper {
-    background-image: url("images/main.jpg");
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
 
+.top-wrapper {
+    padding: 180px 0 180px 0;
+    background-image: url("images/main_1.jpg");
+    background-size: cover;
+    
+}
+
+.container h1 {
+    color: white;
 }
 
   
