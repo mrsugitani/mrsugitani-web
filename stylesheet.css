@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: linear-gradient(0deg, transparent 31px, #333 32px), linear-gradient(90deg,  transparent 31px, #333 32px);
+    background-image: linear-gradient(0deg, transparent 31px, #00bfff 32px), linear-gradient(90deg,  transparent 31px, #00bfff 32px);
     background-size: 32px 32px;
   }
 
@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-.container {
+.top-wrapper .container {
     margin: 0 auto;
     padding: 0 15px;
     text-align: center;
@@ -36,7 +36,7 @@ a {
     
 }
 
-.container h1 {
+.top-wrapper .container h1 {
     color: white;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -46,11 +46,11 @@ a {
 
 }
 
-.container span {
+.top-wrapper .container span {
     color: red;
 }
 
-p {
+.top-wrapper p {
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -100,4 +100,15 @@ header a:hover {
     top: 1px;
 }
 
+.main-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.main-wrapper .container {
+    text-align: left;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #191970;
+}
