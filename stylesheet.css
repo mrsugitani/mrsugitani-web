@@ -79,8 +79,6 @@ header a {
     transition: all 0.5s;
 }
 
-
-
 header a:hover {
     opacity: 0.8;
 }
@@ -111,4 +109,9 @@ header a:hover {
     font-weight: 400;
     font-style: normal;
     color: #191970;
+}
+
+.main-wrapper .container h1 {
+    border-bottom: 2px solid #191970;
+    padding-bottom: 0px;
 }
