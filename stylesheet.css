@@ -5,16 +5,13 @@ body {
   }
 
 
-
-.title {
-    color: #02ccba;
-  
-}
-
 header {
     height: 40px;
     background-color: black;
     color: white;
+    position: fixed;
+    top: 0px;
+    right: 10px;
 }
 
 a {
@@ -71,6 +68,7 @@ a {
     font-weight: 400;
     font-style: normal;
     color: white;
+    
 }
 
 header a {
@@ -113,6 +111,39 @@ header a:hover {
 }
 
 .main-wrapper .container h1 {
-    border-bottom: 2px solid #191970;
+    border-bottom: 3px solid #191970;
     padding-bottom: 0px;
 }
+
+.main-wrapper .container h2 {
+    border-bottom: 1px solid #191970;
+    padding-bottom: 0px;
+    border-left: 5px solid #191970;
+    padding-left: 5px;
+}
+
+.main-wrapper .container span {
+    padding-right: 5px;
+}
+
+.main-wrapper .container1-left {
+    width: 75%;
+}
+
+.main-wrapper .container1-right {
+    font-size: 100px;
+    /background-color: white;
+    width: 25%;
+    text-align: center;
+    padding-top: 40px;
+    height: 150px;
+}
+
+.container1 {
+    float: left;
+}
+
+.main-wrapper .container p {
+    margin-top: 0px;
+}
+
